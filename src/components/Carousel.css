@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@500&display=swap');
+
+body {
+  font-family: 'Noto Sans TC', sans-serif;
+}
+
+.header {
+  position: relative;
+  background: url(../Image/天后1.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+  align-items: center;
+  text-align: center;
+}
+
+.main-info {
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.main-info h1 {
+  font-size: 60px;
+	color: white;
+  letter-spacing: 10px;
+  background: rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0 0 0 10px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 0 0 0 10px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.main-info p {
+  font-size: 20px;
+  color: white;
+  letter-spacing: 10px;
+  background: rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0 0 0 10px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 0 0 0 10px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.main-info button {
+  background-color: #C89832 !important;
+  position: absolute;
+  top: 400px;
+}
