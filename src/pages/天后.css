@@ -1,0 +1,110 @@
+.header-tien {
+    position: relative;
+    background: url(../Image/天后2.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+
+
+.main-info-tien {
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+.main-info-tien h1 {
+    font-size: 60px;
+    color: white;
+    letter-spacing: 10px;
+    background: rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0 0 0 10px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: 0 0 0 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+
+.description {
+    margin-top: 30px;
+    padding: 15px;
+    align-items: center;
+    border-bottom: #C89832 solid;
+}
+
+.word {
+    color: white;
+    letter-spacing: 3px;
+}
+
+.word h2 {
+    margin-bottom: 30px;
+}
+
+.info-box {
+  margin-top: 30px;
+  border-bottom: #C89832 solid;
+}
+
+.info-box iframe {
+  height: 500px;
+  width: 700px;
+  border: 0;
+}
+
+.info-box .info-word {
+  color: white;
+  border-top: #4a4a4a 1px solid;
+  padding: 30px 0;
+  letter-spacing: 2px;
+}
+
+.info-box p {
+  color: white;
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+.collection {
+  margin-top: 30px;
+  color: white;
+}
+
+.slider {
+  display: block;
+  color: white;
+}
+
+.slider img {
+  max-width: 300px;
+  max-height: 300px;
+}
+
+.slider img:hover {
+  cursor: pointer;
+}
+
+.dialog {
+  display: flex;
+  align-content: center;
+  justify-items: center;
+  justify-content: center;
+}
+.dialog img{
+  display: flex;
+  max-width: 500px;
+  max-height: 300px;
+}
+
+.dialog p{
+  display: flex;
+  max-width: 500px;
+}

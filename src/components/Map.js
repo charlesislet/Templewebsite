@@ -7,7 +7,7 @@ export default function Mapp() {
   const [viewport, setViewport] = useState({
     latitude: 23.572064,
     longitude: 119.570085,
-    width: "100vw",
+    width: "150vw",
     height: "100vh",
     zoom: 13
   });
