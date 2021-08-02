@@ -13,7 +13,7 @@ const Navbar = () => {
       <div className="navbar-nav navbar-right">
         <a className="nav-link " aria-current="page" href="#">Home</a>
         <Link to='/tien' className="nav-link">feature</Link>
-        <a className="nav-link" href="#">Pricing</a>
+        <Link to='/table' className="nav-link">廟宇資料表</Link>
       </div>
   </div>
 </nav>

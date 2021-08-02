@@ -5,6 +5,7 @@ import Navbar from './components/Navbar';
 import Tien from './pages/天后';
 import Home from './pages/Home';
 import TienHistory from './pages/天后History';
+import Table from './pages/Table';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       </Route>
       <Route path='/tien' component={Tien} />
       <Route path='/tienhistory' component={TienHistory} />
+      <Route path='/table' component={Table} />
     </Switch>
     </Router>
     </>

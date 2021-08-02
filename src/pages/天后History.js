@@ -13,13 +13,6 @@ import pic4 from '../Image/天后宮/IMG_9492.JPG';
 
 export default function TienHistory() {
   var settings = {
-    // customPaging: function (slider, i) {
-		// 	var title = $(slider.$slides[i]).data('title');
-		// 	return '<span class="dots__item"><span class="dots__number">0'+ Number(i+1) + '</span>' + title + ' </span>';
-		// },
-      // var thumb = $(slider.$slides[i]).find('.slider-nav');
-      //     return thumb;
-
     lazyLoad: true,
     dots: true,
     infinite: true,
@@ -36,7 +29,7 @@ export default function TienHistory() {
     </div>
     <div className='container'>
         <SimpleBreadcrumbs/>
-        <Slider className='history-slider slider' {...settings}>
+        <Slider className='history-slider slides' {...settings}>
         <section className= "history-box">
             <div className="history-column">
                 <img src={pic1}></img>
@@ -44,6 +37,7 @@ export default function TienHistory() {
             <div className="history-column">
                 <p className='year'>1604</p>
                 <p className='history-column-description'>創建於何時卻始終沒有定論。不過，可以確定的是，明萬曆32年（1604）就已經存在</p>
+                <div class="slider-nav">nav1</div>
             </div>
         </section>
         <section className= "history-box">
@@ -53,6 +47,7 @@ export default function TienHistory() {
             <div className="history-column">
                 <p className='year'>1604</p>
                 <p className='history-column-description'>創建於何時卻始終沒有定論。不過，可以確定的是，明萬曆32年（1604）就已經存在</p>
+                <div class="slider-nav">nav1</div>
             </div>
         </section>
         </Slider>
