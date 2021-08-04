@@ -30,6 +30,36 @@
         "type": "Point",
         "coordinates": [119.56638647800685, 23.566313875037356]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "提標館"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [119.56495399606035, 23.563755632310706]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "景福祠"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [119.56493018071879, 23.56429880004443]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "海靈殿"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [119.56355592489567, 23.563576829791337]
+      }
     }
   ]
 }
