@@ -4,20 +4,36 @@ import { Link } from 'react-router-dom';
 
 const Navbar = () => {
 	return(
-		<nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-  <div className="container-fluid">
-    <a className="navbar-brand" href="#">澎湖廟宇</a>
-    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-      <span className="navbar-toggler-icon"></span>
-    </button>
-      <div className="navbar-nav navbar-right">
-        <a className="nav-link " aria-current="page" href="#">Home</a>
-        <Link to='/tien' className="nav-link">feature</Link>
-        <Link to='/table' className="nav-link">廟宇資料表</Link>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+      <div class="container-fluid">
+        <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Left</a>
+            </li>
+          </ul>
+        </div>
+        <div class="mx-auto order-0">
+          <a class="navbar-brand mx-auto" href="#">Navbar 2</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-collapse2">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+        <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#">廟宇地圖</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">探索廟宇</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">廟宇資料表</a>
+            </li>
+          </ul>
+        </div>
       </div>
-  </div>
-</nav>
-
+    </nav>
 	)
 
 }

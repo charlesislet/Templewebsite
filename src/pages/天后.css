@@ -41,12 +41,13 @@
 }
 
 .word {
-    color: white;
+    color: black;
     letter-spacing: 3px;
 }
 
 .word h2 {
-    margin-bottom: 30px;
+  color: rgb(194, 21, 47);  
+  margin-bottom: 30px;
 }
 
 .info-box {
