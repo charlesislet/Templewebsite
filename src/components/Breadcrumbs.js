@@ -9,13 +9,15 @@ import './Breadcrumbs.css';
 export default function SimpleBreadcrumbs() {
   return (
     <Breadcrumbs className='breadcrumbs' aria-label="breadcrumb">
-      <Link className='breadcrumbs-item' color="inherit" href="/" >
+      <Link component={RouterLink} to="/tien" className='breadcrumbs-item' color="inherit" >
         簡介
       </Link>
       <Link component={RouterLink} to="/tienhistory" className='breadcrumbs-item' color="inherit" >
         歷史
       </Link>
-      <Typography color="textPrimary">Breadcrumb</Typography>
+      <Link component={RouterLink} to="#" className='breadcrumbs-item' color="inherit" >
+        環景導覽
+      </Link>
     </Breadcrumbs>
   );
 }

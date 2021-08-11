@@ -1,0 +1,22 @@
+.about {
+    background-color: rgba(34,44,43,0.99);
+    color: #fff;
+}
+
+.about h1 {
+    margin-top: 10vh;
+    margin-left: 15vh;
+    font-size: 60px;
+}
+
+.about p {
+    margin-left: 15vh;
+    margin-right: 15vh;
+    margin-top: 10vh;
+    line-height: 40px;
+    font-size: 20px;
+}
+
+.about-image {
+    max-width: 100%;
+}

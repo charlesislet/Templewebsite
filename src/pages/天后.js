@@ -70,11 +70,11 @@ export default function Tien() {
       <div className='info-box row'>
         <div className='col-8'dangerouslySetInnerHTML={{ __html: "<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1515.57783696468!2d119.5639376472616!3d23.564741090997252!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x346c5a8cb0ec27c7%3A0x7898100c08a9fbe9!2z5r6O5rmW5aSp5ZCO5a6u!5e0!3m2!1szh-TW!2stw!4v1627364027673!5m2!1szh-TW!2stw' />"}} />
         <div className='col-4'>
-          <h4 className='info-word'><FontAwesomeIcon icon={faMapMarkerAlt} style={{color:'#fff'}}/>   地址</h4>
+          <h4 className='info-word'><FontAwesomeIcon icon={faMapMarkerAlt} style={{color:'rgb(194, 21, 47)'}}/>   地址</h4>
           <p>澎湖縣馬公市正義街1號</p>
-          <h4 className='info-word'><FontAwesomeIcon icon={faClock} style={{color:'#fff'}}/>   營業時間</h4>
+          <h4 className='info-word'><FontAwesomeIcon icon={faClock} style={{color:'rgb(194, 21, 47)'}}/>   營業時間</h4>
           <p>星期一至星期日  07:00-19:00</p>
-          <h4 className='info-word'><FontAwesomeIcon icon={faPhone} style={{color:'#fff'}}/>   電話號碼</h4>
+          <h4 className='info-word'><FontAwesomeIcon icon={faPhone} style={{color:'rgb(194, 21, 47)'}}/>   電話號碼</h4>
           <p>06-9262819</p>
         </div>
       </div>
@@ -86,7 +86,7 @@ export default function Tien() {
             <img  src={pic1} onClick={handleClickOpen}></img>
             <Dialog className='dialog'fullScreen open={open} onClose={handleClose} TransitionComponent={Transition}>
               <IconButton className={classes.button} edge="" onClick={handleClose} aria-label="close">
-                <FontAwesomeIcon icon={faTimesCircle} style={{color:'black'}}/>
+                <FontAwesomeIcon icon={faTimesCircle} style={{color:'#000000'}}/>
               </IconButton>
               <img src={pic1}></img>
               <p>位於三川殿步口(為房屋前面以屋簷延伸為頂的走廊空間)上方架棟的雕花，其雕刻手法因木匠受嶺南畫派影響，以內枝外葉的手法，表現出凹凸的前後層次，展現細膩工法，題材為歷史故事或花鳥，為天后宮裝飾藝術中最重要的部份，也是全臺廟宇中最優秀作品之一。</p>

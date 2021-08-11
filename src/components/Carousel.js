@@ -9,9 +9,6 @@ const Carousel = () => {
       <div className="main-info">
        <h1>漫遊澎湖廟宇</h1>
        <p>與媽公城的浪漫邂逅</p>
-      <Button variant="contained" color="secondary">
-        點此探索
-      </Button>
       </div>
     </div>
     

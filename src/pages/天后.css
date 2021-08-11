@@ -62,26 +62,30 @@
 }
 
 .info-box .info-word {
-  color: white;
+  color: rgb(194, 21, 47);
   border-top: #4a4a4a 1px solid;
   padding: 30px 0;
   letter-spacing: 2px;
 }
 
 .info-box p {
-  color: white;
+  color: #000000;
   font-size: 20px;
   font-weight: lighter;
 }
 
 .collection {
   margin-top: 30px;
-  color: white;
+  color: rgb(194, 21, 47);
 }
 
 .slider {
   display: block;
-  color: white;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: #000000 !important;
 }
 
 .slider img {

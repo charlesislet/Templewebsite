@@ -20,6 +20,11 @@ body{
 	color: var(--primary-white) !important;
 }
 
+.nav-link img{
+	height: 40px;
+	width: 100%;
+}
+
 .nav-item {
 	transition: ease-in 0.5s;
 }

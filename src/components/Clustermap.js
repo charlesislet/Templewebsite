@@ -1,11 +1,11 @@
 import React, { useRef, useEffect, useState } from 'react';
 import mapboxgl from '!mapbox-gl'; // eslint-disable-line import/no-webpack-loader-syntax
-import './Map.css';
+import './Clustermap.css';
 import * as templedata from './temples.json';
 
 mapboxgl.accessToken='pk.eyJ1IjoiY2hhcmxlc2lzbGV0IiwiYSI6ImNrcmhzd3hkeTEwanAzMW8wa2Y2NnRpd2gifQ.q-NlWrTaGWetsCC5pMZheA';
 
-function Mapp() {
+function Clustermap() {
 
 	const mapContainer = useRef()
 	useEffect(()=>{
@@ -121,5 +121,5 @@ function Mapp() {
 	)
 }
 
-export default Mapp;
+export default Clustermap;
 

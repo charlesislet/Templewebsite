@@ -1,5 +1,6 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
+import { Link } from 'react-router-dom';
 import Card from '@material-ui/core/Card';
 import CardActionArea from '@material-ui/core/CardActionArea';
 import CardActions from '@material-ui/core/CardActions';
@@ -27,7 +28,7 @@ export default function MediaCard() {
   return (
     <>
     <div className="card-title">
-      <h1>探索其他廟宇</h1>
+      <h1>探索廟宇</h1>
     </div>
     <div className="cards">
     <div className="card">
@@ -48,9 +49,11 @@ export default function MediaCard() {
         </CardContent>
       </CardActionArea>
       <CardActions>
-        <Button size="small" color="primary">
+        <Link to='/tien'>
+          <Button size="small" color="primary">
           查看更多
-        </Button>
+          </Button>
+        </Link>
       </CardActions>
     </Card>
     </div>
