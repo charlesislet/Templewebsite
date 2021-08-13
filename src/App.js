@@ -7,6 +7,7 @@ import Home from './pages/Home';
 import TienHistory from './pages/天后History';
 import Table from './pages/Table';
 import Mapp from './pages/Map';
+import Tien360 from './pages/天后360';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
       <Route path='/tienhistory' component={TienHistory} />
       <Route path='/table' component={Table} />
       <Route path='/map' component={Mapp} />
+      <Route path='/tien360' component={Tien360} />
     </Switch>
     </Router>
     </>

@@ -15,7 +15,7 @@ export default function SimpleBreadcrumbs() {
       <Link component={RouterLink} to="/tienhistory" className='breadcrumbs-item' color="inherit" >
         歷史
       </Link>
-      <Link component={RouterLink} to="#" className='breadcrumbs-item' color="inherit" >
+      <Link component={RouterLink} to="/tien360" className='breadcrumbs-item' color="inherit" >
         環景導覽
       </Link>
     </Breadcrumbs>
