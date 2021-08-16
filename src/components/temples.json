@@ -18,7 +18,7 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [119.5643405992606, 23.563884583748443]
+        "coordinates": [119.564178, 23.563917]
       }
     },
     {
@@ -38,7 +38,7 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [119.56495399606035, 23.563755632310706]
+        "coordinates": [119.564383, 23.563636]
       }
     },
     {
@@ -48,7 +48,7 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [119.56493018071879, 23.56429880004443]
+        "coordinates": [119.564411, 23.564122]
       }
     },
     {
@@ -58,7 +58,467 @@
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [119.56355592489567, 23.563576829791337]
+        "coordinates": [119.562961, 23.563407]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "施工祠"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [119.564266, 23.564584]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "銅山館"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [119.563672, 23.565748]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "陰陽堂"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [119.563519, 23.564231]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "北辰宮"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [119.565183, 23.566142]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "北極殿"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [119.566867, 23.564893]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "一新社"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [119.570749, 23.569365]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "靈蓮堂"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [119.567424, 23.576517]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "靈光殿"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [119.569969, 23.574728]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "西瀛應天宮"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [119.572955, 23.577936] 
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "威靈殿"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [119.571373, 23.584679]  
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "金龍殿"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [119.578350, 23.580404]  
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "宸威殿"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [119.581437, 23.580462]  
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "西吉宮"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [119.576017, 23.574839]  
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "靈應祠(紅毛城城前公廟)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [119.574961, 23.571943]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "武聖廟(關帝廟)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [119.575190, 23.572999]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "三官殿"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [119.575395, 23.570461] 
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "聖真寶殿"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [119.584582, 23.565023] 
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "文澳城隍廟"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [119.583703, 23.565527] 
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "祖師廟"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [119.582436, 23.565734] 
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "溫極殿"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [119.584522, 23.561458]  
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "柳星廟"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [119.578596, 23.556727]   
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "北極殿"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [119.578759,  23.557253]   
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "萬善廟"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [119.577531,  23.559911]   
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "太子殿"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [119.584770, 23.552467]    
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "前寮朱王廟"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [119.587563, 23.552649]     
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "東鳳宮"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [119.591676, 23.559980]      
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "石泉朱王廟"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [119.593877, 23.555382]       
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "東安宮"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [119.595585, 23.551463]        
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "東衛天后宮"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [119.600553, 23.568062]       
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "周王廟"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [119.602105, 23.577699]       
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "懋靈殿"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [119.611307, 23.550894]        
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "境海宮"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [119.620984, 23.546247]        
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "代天宮"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [119.599002, 23.533228]        
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "清水宮"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [119.598998, 23.532519]         
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "紫薇宮"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [119.604207, 23.527280]         
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "鎖港北極殿"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [119.600872, 23.523399]         
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "山水上帝廟"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [119.592622, 23.514447]        
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "威靈宮"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [119.587120, 23.528682]         
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "井垵北極殿"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [119.576588, 23.518841]      
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "吳府殿"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [119.576760, 23.521068]     
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "嵵裡水仙宮"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [119.570253, 23.524819]    
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "風櫃溫王殿"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [119.544559, 23.540004]   
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "金王殿"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [119.549277, 23.539479]  
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "流水亨通三官殿"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [119.541973, 23.539869]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "福海宮"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [119.517958, 23.511717] 
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "虎井水仙宮"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [119.520842, 23.490167] 
       }
     }
   ]

@@ -3,7 +3,9 @@ import Clustermap from '../components/Clustermap';
 
 function Mapp() {
     return(
+        <>
         <Clustermap/>
+        </>
     )
 }
 

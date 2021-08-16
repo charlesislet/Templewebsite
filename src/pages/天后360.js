@@ -10,6 +10,7 @@ import pic7 from '../Image/天后宮/天后360_6.jpg'
 import pic8 from '../Image/天后宮/天后360_7.jpg'
 import pic9 from '../Image/天后宮/天后360_8.jpg'
 import pic10 from '../Image/天后宮/天后360_9.jpg'
+import pic11 from '../Image/天后宮/天后360_10.jpg'
 import ReactPannellum, { addScene, addHotSpot, getAllScenes, getCurrentScene}  from "react-pannellum";
 import SimpleBreadcrumbs from '../components/Breadcrumbs';
 
@@ -46,6 +47,18 @@ export default class Tien360 extends React.Component {
                   type: "scene",
                   text: "三川殿左側",
                   sceneId: "corridorleft",
+                },
+                {
+                  pitch: 17,
+                  yaw: -50,
+                  type: "info",
+                  text: "虎垛",
+                },
+                {
+                  pitch: 40,
+                  yaw: 0,
+                  type: "info",
+                  text: "天后宮額題",
                 },
               ],
             },
@@ -121,6 +134,13 @@ export default class Tien360 extends React.Component {
                 type: "scene",
                 text: "清風閣右側",
                 sceneId: "backright",
+              },
+              {
+                pitch: 0,
+                yaw: -90,
+                type: "scene",
+                text: "正殿",
+                sceneId: "mainmiddle",
               },
             ],
           },
@@ -217,10 +237,17 @@ export default class Tien360 extends React.Component {
               },
               {
                 pitch: 0,
-                yaw: 180,
+                yaw: -175,
                 type: "scene",
                 text: "三川殿左側",
                 sceneId: "corridorleft",
+              },
+              {
+                pitch: 0,
+                yaw: 90,
+                type: "scene",
+                text: "正殿",
+                sceneId: "mainmiddle",
               },
             ],
           },
@@ -238,7 +265,7 @@ export default class Tien360 extends React.Component {
                 yaw: 0,
                 type: "scene",
                 text: "正殿左側",
-                sceneId: "middleleft",
+                sceneId: "mainleft",
               },
               {
                 pitch: 0,
@@ -246,6 +273,37 @@ export default class Tien360 extends React.Component {
                 type: "scene",
                 text: "階梯",
                 sceneId: "stairway",
+              },
+            ],
+          },
+        )
+        addScene(
+          "mainmiddle",
+          {
+            title: "正殿",
+            autoLoad: true,
+            type: "equirectangular",
+            imageSource: pic11,
+            hotSpots: [
+              {
+                pitch: 0,
+                yaw: -90,
+                type: "scene",
+                text: "正殿左側",
+                sceneId: "mainleft",
+              },
+              {
+                pitch: 0,
+                yaw: 90,
+                type: "scene",
+                text: "正殿右側",
+                sceneId: "mainright",
+              },
+              {
+                pitch: 0,
+                yaw: 0,
+                type: "info",
+                text: "媽祖神像",
               },
             ],
           },
@@ -274,12 +332,6 @@ export default class Tien360 extends React.Component {
                 text: "階梯",
                 sceneId: "stairway",
             },
-            // {
-            //     pitch: 0.4,
-            //     yaw: 252.6,
-            //     type: "info",
-            //     text: "Art Museum Drive",
-            // },
         ],
         }}
         style={{
@@ -292,93 +344,3 @@ export default class Tien360 extends React.Component {
         );
     }
 }
-
-// const Tien360 = () => {
-//     const callback = () => {
-//         console.log("Add a new scene");
-//     };
-//     useEffect(() => {
-//       addScene(
-//         "house",
-//         {
-//           title: "Spring House or Dairy",
-//           autoLoad: true,
-//           hfov: 110,
-//           yaw: 5,
-//           type: "equirectangular",
-//           imageSource: pic2,
-//           hotSpots: [
-//             {
-//               pitch: -0.6,
-//               yaw: 37.1,
-//               type: "scene",
-//               text: "Mason Circle",
-//               sceneId: "circle",
-//               targetYaw: -23,
-//               targetPitch: 2,
-//             },
-//           ],
-//         },
-//         callback
-//       );
-//       addHotSpot(
-//                     {
-//                       pitch: 5,
-//                       yaw: 3,
-//                       type: "scene",
-//                       text: "Baltimore Museum of Art",
-//                       sceneId: "house",
-//                     },
-//                     "circle",
-//                     {
-//                       pitch: 5,
-//                       yaw: 3,
-//                       type: "scene",
-//                       text: "Baltimore Museum of Art",
-//                       sceneId: "circle",
-//                     },
-//                     "house"
-//                   );
-//     }, []);
-  
-//     const onPanoramaLoaded = () => {
-//       console.log("Panorama loaded");
-//     };
-  
-//     return (
-//       <div>
-//         <ReactPannellum
-//           id="pannellum"
-//           sceneId="circle"
-//           imageSource={pic1}
-//           config={{
-//             autoLoad: true,
-//             hotSpots: [
-//               {
-//                 pitch: 5,
-//                 yaw: 3,
-//                 type: "scene",
-//                 text: "階梯",
-//                 sceneId: "house",
-//               },
-//               {
-//                 pitch: 0.4,
-//                 yaw: 252.6,
-//                 type: "info",
-//                 text: "Art Museum Drive",
-//               },
-//             ],
-//           }}
-//           style={{
-//             width: "100%",
-//             height: "90vh",
-//           }}
-//           onPanoramaLoaded={onPanoramaLoaded}
-//         />
-//       </div>
-//     );
-//   };
-  
-//   export default Tien360;
-
-
