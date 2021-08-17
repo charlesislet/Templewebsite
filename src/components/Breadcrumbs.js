@@ -18,6 +18,9 @@ export default function SimpleBreadcrumbs() {
       <Link component={RouterLink} to="/tien360" className='breadcrumbs-item' color="inherit" >
         環景導覽
       </Link>
+      <Link component={RouterLink} to="/tienmodel" className='breadcrumbs-item' color="inherit" >
+        3D模型
+      </Link>
     </Breadcrumbs>
   );
 }

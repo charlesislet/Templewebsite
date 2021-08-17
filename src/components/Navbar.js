@@ -7,23 +7,13 @@ const Navbar = () => {
 	return(
     <nav class="navbar navbar-expand-md navbar-dark bg-dark">
       <div class="container-fluid">
-        <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
-          <ul class="navbar-nav me-auto">
-            <a class="nav-link" href="#"><img src={logo}/></a>
-            <Link className="nav-link" to='/'><h2>澎湖廟宇</h2></Link>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-collapse2">
-            <span class="navbar-toggler-icon"></span>
-            </button>
-          </ul>
-        </div>
-        {/* <div class="mx-auto order-0">
-          <a class="navbar-brand mx-auto" href="#">Navbar 2</a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-collapse2">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-        </div> */}
-        <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
-          <ul class="navbar-nav ms-auto">
+        <a class="navbar-brand" href="#"><img src={logo}/></a>
+        <Link className="nav-link" to='/'><h2>澎湖廟宇</h2></Link>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse order-3" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
             <li class="nav-item">
               <Link className="nav-link" to='./map'>廟宇地圖</Link>
             </li>

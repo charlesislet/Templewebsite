@@ -20,9 +20,9 @@ body{
 	color: var(--primary-white) !important;
 }
 
-.nav-link img{
-	height: 40px;
-	width: 100%;
+.navbar-brand img{
+	height: 40px !important;
+	width: 100% !important;
 }
 
 .nav-item {
