@@ -1,10 +1,20 @@
+import React, { Component } from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './Home.css';
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 import Grid from '@material-ui/core/Grid';
 import { makeStyles } from '@material-ui/core/styles';
 import Carousel from '../components/Carousel';
 import MediaCard from '../components/Card';
 import pic1 from '../Image/天后宮/IMG_6834.JPG';
+import pic2 from '../Image/天后宮/IMG_3161.JPG';
+import pic3 from '../Image/天后宮/IMG_3175.JPG';
+import pic4 from '../Image/天后宮/IMG_3201.JPG';
+import pic5 from '../Image/天后宮/IMG_9492.JPG';
+import pic6 from '../Image/天后宮/IMG_3174.JPG';
+import { Link } from 'react-router-dom';
 
 const useStyles = makeStyles({
   root: {
@@ -15,6 +25,15 @@ const useStyles = makeStyles({
 
 export default function Home() {
   const classes = useStyles();
+  const settings = {
+    className: "decoration-slider",
+    dots: true,
+    infinite: true,
+    arrows: true,
+    speed: 500,
+    slidesToShow: 3,
+    slidesToScroll: 3,
+  };
     return (
       <>
       <Carousel/>
@@ -28,6 +47,25 @@ export default function Home() {
         </Grid>
       </Grid>
       <MediaCard/>
+      <div className='decoration'>
+      <h1>壁飾與文物</h1>
+      <Slider {...settings}>
+          <div className='decoration-1'>
+            <img width='380' height='280' src={pic2}></img>
+          </div>
+          <div className='decoration-2'>
+            <Link to="/虎垛">
+            <img width='350' height='280' src={pic6} onMouseOver={e => e.currentTarget.src = pic3} onMouseOut={e => e.currentTarget.src = pic6}></img>
+            </Link>
+          </div>
+          <div className='decoration-3'> 
+            <img width='230' height='300' src={pic4}></img>
+          </div>
+          <div className='decoration-4'>
+            <img width='230' height='300' src={pic5}></img>
+          </div>
+        </Slider>
+        </div>
       </>
     );
   }

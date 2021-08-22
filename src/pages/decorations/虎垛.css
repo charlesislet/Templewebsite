@@ -1,0 +1,26 @@
+.pic-info{
+    margin-top: 80px;
+}
+
+.pic-info-item{
+    display: flex;
+    background-color: rgb(242, 243, 247);
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.pic-info-img {
+    margin: 20px;
+    max-width: 90%;
+}
+
+.pic-info-item h1 {
+    border-bottom: #414343 solid;
+    font-size: 70px;
+}
+
+.pic-info-item p {
+    margin-top: 20px;
+    font-size: 30px;
+}

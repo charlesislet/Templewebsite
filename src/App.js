@@ -9,6 +9,7 @@ import Table from './pages/Table';
 import Mapp from './pages/Map';
 import Tien360 from './pages/天后360';
 import Tienmodel from './pages/天后model';
+import 虎垛 from './pages/decorations/虎垛';
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
       <Route path='/map' component={Mapp} />
       <Route path='/tien360' component={Tien360} />
       <Route path='/tienmodel' component={Tienmodel} />
+      <Route path='/虎垛' component={虎垛} />
     </Switch>
     </Router>
     </>
