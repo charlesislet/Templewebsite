@@ -1,12 +1,10 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Grid from '@material-ui/core/Grid';
-import { makeStyles } from '@material-ui/core/styles';
-import './天后.css'
+import './天后.css';
+import Nav from '../components/Nav';
 import SimpleBreadcrumbs from '../components/Breadcrumbs';
-import Dialog from '@material-ui/core/Dialog';
-import Slide from '@material-ui/core/Slide';
-import IconButton from '@material-ui/core/IconButton';
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -14,43 +12,51 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faMapMarkerAlt } from '@fortawesome/free-solid-svg-icons';
 import { faClock } from '@fortawesome/free-solid-svg-icons';
 import { faPhone } from '@fortawesome/free-solid-svg-icons';
-import { faTimesCircle } from '@fortawesome/free-solid-svg-icons';
 import pic1 from '../Image/天后宮/IMG_3161.JPG';
 import pic2 from '../Image/天后宮/IMG_3175.JPG';
 import pic3 from '../Image/天后宮/IMG_3201.JPG';
 import pic4 from '../Image/天后宮/IMG_9492.JPG';
+import pic6 from '../Image/天后宮/IMG_3174.JPG';
 
-const useStyles = makeStyles((theme) => ({
-  button: {
-    justifyContent: 'right',
-    width: '10px',
-  },
-}));
 
-const Transition = React.forwardRef(function Transition(props, ref) {
-  return <Slide direction="down" ref={ref} {...props} />;
-});
 export default function Tien() {
-  const classes = useStyles();
-  const [open, setOpen] = React.useState(false);
-
-  const handleClickOpen = () => {
-    setOpen(true);
-  };
-
-  const handleClose = () => {
-    setOpen(false);
-  };
-  var settings = {
-    className: "slider",
-      dots: true,
-      infinite: true,
-      slidesToShow: 3,
-      slidesToScroll: 1,
-      // variableWidth: true
+  const settings = {
+    className: "decoration-slider",
+    dots: false,
+    infinite: true,
+    arrows: true,
+    speed: 500,
+    slidesToShow: 3,
+    slidesToScroll: 3,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 3,
+          infinite: true,
+        }
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2,
+          initialSlide: 2
+        }
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1
+        }
+      }
+    ]
   };
   return (
     <>
+    <Nav/>
     <div className="header-tien">
       <div className="main-info-tien">
        <h1>天后宮</h1>
@@ -80,32 +86,25 @@ export default function Tien() {
           <p>06-9262819</p>
         </Grid>
       </Grid>
-      <div className='collection'>
-        <h1>雕飾與藏品</h1>
-        <div>
-        <Slider {...settings}>
-          <div>
-            <img  src={pic1} onClick={handleClickOpen}></img>
-            <Dialog className='dialog'fullScreen open={open} onClose={handleClose} TransitionComponent={Transition}>
-              <IconButton className={classes.button} edge="" onClick={handleClose} aria-label="close">
-                <FontAwesomeIcon icon={faTimesCircle} style={{color:'#000000'}}/>
-              </IconButton>
-              <img src={pic1}></img>
-              <p>位於三川殿步口(為房屋前面以屋簷延伸為頂的走廊空間)上方架棟的雕花，其雕刻手法因木匠受嶺南畫派影響，以內枝外葉的手法，表現出凹凸的前後層次，展現細膩工法，題材為歷史故事或花鳥，為天后宮裝飾藝術中最重要的部份，也是全臺廟宇中最優秀作品之一。</p>
-            </Dialog>
+      <div className='decoration'>
+      <h1>壁飾與文物</h1>
+      <Slider {...settings}>
+          <div className='decoration-1' >
+            <img  src={pic1}></img>
           </div>
-          <div>
-            <img src={pic2}></img>
+          <div className='decoration-2' >
+            <Link to="/虎垛">
+            <img  src={pic6} onMouseOver={e => e.currentTarget.src = pic2} onMouseOut={e => e.currentTarget.src = pic6}></img>
+            </Link>
           </div>
-          <div>
-            <img src={pic3}></img>
+          <div className='decoration-3' > 
+            <img  src={pic3}></img>
           </div>
-          <div>
-            <img src={pic4}></img>
+          <div className='decoration-4' >
+            <img  src={pic4}></img>
           </div>
         </Slider>
         </div>
-      </div>
     </div>
     
     </>

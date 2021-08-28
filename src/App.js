@@ -10,12 +10,12 @@ import Mapp from './pages/Map';
 import Tien360 from './pages/天后360';
 import Tienmodel from './pages/天后model';
 import 虎垛 from './pages/decorations/虎垛';
+import Temples from './pages/Temples';
 
 function App() {
   return (
     <>
     <Router>
-    <Navbar/>
     <Switch>
       <Route exact path='/'>
         <Home/>
@@ -27,6 +27,7 @@ function App() {
       <Route path='/tien360' component={Tien360} />
       <Route path='/tienmodel' component={Tienmodel} />
       <Route path='/虎垛' component={虎垛} />
+      <Route path='/temples' component={Temples} />
     </Switch>
     </Router>
     </>

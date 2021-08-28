@@ -4,13 +4,8 @@ import './Carousel.css';
 import logo from '../Image/icon.png'
 import { Link } from 'react-router-dom';
 
-const Navbar = () => {
+const Nav = () => {
 	return(
-    <div className="header">
-      <div className="main-info">
-       <h1>漫遊澎湖廟宇</h1>
-       <p>與媽公城的浪漫邂逅</p>
-      </div>
     <nav class="navbar navbar-expand-md navbar-dark bg-dark">
       <div class="container-fluid">
         <a class="navbar-brand" href="#"><img src={logo}/></a>
@@ -33,9 +28,8 @@ const Navbar = () => {
         </div>
       </div>
     </nav>
-    </div>
 	)
 
 }
 
-export default Navbar;
+export default Nav;

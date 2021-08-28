@@ -10,14 +10,21 @@
 
 body{
 	font-family: 'Noto Sans TC', sans-serif;
+	
 }
 
 .navbar {
-	color: var(--primary-dark) !important;
+	background-color: rgba(255, 255, 255, 0.8) !important;
+	border-bottom: solid 1px #fff;
 }
 
+.navbar-toggler {
+	background-color: #212529 !important;
+}
+
+
 .nav-link {
-	color: var(--primary-white) !important;
+	color: #212529 !important;
 }
 
 .navbar-brand img{
@@ -25,21 +32,18 @@ body{
 	width: 100% !important;
 }
 
-.nav-item {
+/* .nav-item {
 	transition: ease-in 0.5s;
-}
+} */
 
 .nav-item:hover{
-	border: 2px solid var(--primary-white);
-	background-color: var(--primary-orange);
-	border-radius: 5px;
+	border-bottom: 2px solid #BE7C63;
 }
 
 
-.nav-link:hover {
+/* .nav-link:hover {
 	color: var(--primary-white) !important;
-	/* border: 1px solid var(--primary-orange); */
-} 
+}  */
 
 
 

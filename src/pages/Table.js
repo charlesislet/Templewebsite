@@ -1,9 +1,12 @@
 import React from 'react';
+import Nav from '../components/Nav';
 import MaterialTable from 'material-table';
 const Table=()=>{
     return(
+        <>
+        <Nav/>
         <div>
-            <MaterialTable title='廟宇資料表'
+            <MaterialTable title=''
                 data={[
                     {廟宇名稱:'天后宮',祭祀主神:'天上聖母',創建:'1604',地區:1},
                     {廟宇名稱:'媽宮城隍廟',祭祀主神:'城隍爺',創建:'1779',地區:1},
@@ -25,6 +28,7 @@ const Table=()=>{
             }}
             />
         </div>
+        </>
     )
 }
 
