@@ -17,17 +17,17 @@ function App() {
     <>
     <Router>
     <Switch>
-      <Route exact path='/'>
+      <Route exact path='/Templewebsite'>
         <Home/>
       </Route>
-      <Route path='/tien' component={Tien} />
-      <Route path='/tienhistory' component={TienHistory} />
-      <Route path='/table' component={Table} />
-      <Route path='/map' component={Mapp} />
-      <Route path='/tien360' component={Tien360} />
-      <Route path='/tienmodel' component={Tienmodel} />
-      <Route path='/虎垛' component={虎垛} />
-      <Route path='/temples' component={Temples} />
+      <Route path='/Templewebsite/tien' component={Tien} />
+      <Route path='/Templewebsite/tienhistory' component={TienHistory} />
+      <Route path='/Templewebsite/table' component={Table} />
+      <Route path='/Templewebsite/map' component={Mapp} />
+      <Route path='/Templewebsite/tien360' component={Tien360} />
+      <Route path='/Templewebsite/tienmodel' component={Tienmodel} />
+      <Route path='/Templewebsite/虎垛' component={虎垛} />
+      <Route path='/Templewebsite/temples' component={Temples} />
     </Switch>
     </Router>
     </>
