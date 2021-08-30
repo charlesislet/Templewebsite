@@ -16,13 +16,13 @@ const Nav = () => {
         <div class="collapse navbar-collapse order-3" id="navbarSupportedContent">
           <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <Link className="nav-link" to='./Templewebsite/map'>廟宇地圖</Link>
+              <Link className="nav-link" to='./map'>廟宇地圖</Link>
             </li>
             <li class="nav-item">
-              <Link className="nav-link" to='./Templewebsite/temples'>探索廟宇</Link>
+              <Link className="nav-link" to='./temples'>探索廟宇</Link>
             </li>
             <li class="nav-item">
-              <Link class="nav-link" to="./Templewebsite/table">廟宇資料表</Link>
+              <Link class="nav-link" to="./table">廟宇資料表</Link>
             </li>
           </ul>
         </div>
