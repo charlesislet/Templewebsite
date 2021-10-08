@@ -9,7 +9,7 @@ const Nav = () => {
     <nav class="navbar navbar-expand-md navbar-dark bg-dark">
       <div class="container-fluid">
         <a class="navbar-brand" href="#"><img src={logo}/></a>
-        <Link className="nav-link" to='./'><h2>澎湖廟宇</h2></Link>
+        <Link className="nav-link" to='./Templewebsite'><h2>澎湖廟宇</h2></Link>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
