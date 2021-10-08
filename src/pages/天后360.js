@@ -14,6 +14,7 @@ import pic11 from '../Image/天后宮/天后360_10.jpg'
 import ReactPannellum, { addScene, addHotSpot, getAllScenes, getCurrentScene}  from "react-pannellum";
 import SimpleBreadcrumbs from '../components/Breadcrumbs';
 
+
 const callback = () => {
   console.log("Add a new scene");
 };
@@ -23,7 +24,7 @@ export default class Tien360 extends React.Component {
             "stairway",
             {
               title: "階梯",
-              autoLoad: true,
+              autoLoad: false,
               type: "equirectangular",
               imageSource: pic2,
               hotSpots: [
@@ -62,12 +63,13 @@ export default class Tien360 extends React.Component {
                 },
               ],
             },
+            callback
           );
         addScene(
           "corridorright",
           {
             title: "三川殿右側",
-            autoLoad: true,
+            autoLoad: false,
             type: "equirectangular",
             imageSource: pic3,
             hotSpots: [
@@ -92,7 +94,7 @@ export default class Tien360 extends React.Component {
           "squareright",
           {
             title: "中庭右側",
-            autoLoad: true,
+            autoLoad: false,
             type: "equirectangular",
             imageSource: pic4,
             hotSpots: [
@@ -117,7 +119,7 @@ export default class Tien360 extends React.Component {
           "mainright",
           {
             title: "正殿右側",
-            autoLoad: true,
+            autoLoad: false,
             type: "equirectangular",
             imageSource: pic5,
             hotSpots: [
@@ -149,7 +151,7 @@ export default class Tien360 extends React.Component {
           "backright",
           {
             title: "清風閣右側",
-            autoLoad: true,
+            autoLoad: false,
             type: "equirectangular",
             imageSource: pic6,
             hotSpots: [
@@ -174,7 +176,7 @@ export default class Tien360 extends React.Component {
           "backmiddle",
           {
             title: "清風閣",
-            autoLoad: true,
+            autoLoad: false,
             type: "equirectangular",
             imageSource: pic7,
             hotSpots: [
@@ -199,7 +201,7 @@ export default class Tien360 extends React.Component {
           "backleft",
           {
             title: "清風閣左側",
-            autoLoad: true,
+            autoLoad: false,
             type: "equirectangular",
             imageSource: pic8,
             hotSpots: [
@@ -224,7 +226,7 @@ export default class Tien360 extends React.Component {
           "mainleft",
           {
             title: "正殿左側",
-            autoLoad: true,
+            autoLoad: false,
             type: "equirectangular",
             imageSource: pic9,
             hotSpots: [
@@ -256,7 +258,7 @@ export default class Tien360 extends React.Component {
           "corridorleft",
           {
             title: "三川殿左側",
-            autoLoad: true,
+            autoLoad: false,
             type: "equirectangular",
             imageSource: pic10,
             hotSpots: [
@@ -281,7 +283,7 @@ export default class Tien360 extends React.Component {
           "mainmiddle",
           {
             title: "正殿",
-            autoLoad: true,
+            autoLoad: false,
             type: "equirectangular",
             imageSource: pic11,
             hotSpots: [

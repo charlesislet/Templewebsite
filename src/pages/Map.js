@@ -1,5 +1,6 @@
 import React from 'react';
 import Clustermap from '../components/Clustermap';
+import Filtermap from '../components/Filtermap';
 import Nav from '../components/Nav';
 
 function Mapp() {
@@ -7,6 +8,7 @@ function Mapp() {
         <>
         <Nav/>
         <Clustermap/>
+        {/* <Filtermap/> */}
         </>
     )
 }
