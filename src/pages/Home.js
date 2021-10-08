@@ -79,7 +79,7 @@ export default function Home() {
             <img  src={pic2}></img>
           </div>
           <div className='decoration-2' >
-            <Link to="/虎垛">
+            <Link to="./虎垛">
             <img  src={pic6} onMouseOver={e => e.currentTarget.src = pic3} onMouseOut={e => e.currentTarget.src = pic6}></img>
             </Link>
           </div>
