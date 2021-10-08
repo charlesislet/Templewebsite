@@ -17,7 +17,7 @@ function App() {
     <>
     <Router>
     <Switch>
-      <Route exact path='/'>
+      <Route exact path='/Templewebsite'>
         <Home/>
       </Route>
       <Route path='/tien' component={Tien} />
