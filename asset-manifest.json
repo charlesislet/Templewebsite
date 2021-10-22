@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Templewebsite/static/css/main.02d59d11.chunk.css",
-    "main.js": "/Templewebsite/static/js/main.825c37f6.chunk.js",
-    "main.js.map": "/Templewebsite/static/js/main.825c37f6.chunk.js.map",
+    "main.js": "/Templewebsite/static/js/main.304eeb74.chunk.js",
+    "main.js.map": "/Templewebsite/static/js/main.304eeb74.chunk.js.map",
     "runtime-main.js": "/Templewebsite/static/js/runtime-main.ae169c4d.js",
     "runtime-main.js.map": "/Templewebsite/static/js/runtime-main.ae169c4d.js.map",
     "static/css/2.e1d94269.chunk.css": "/Templewebsite/static/css/2.e1d94269.chunk.css",
-    "static/js/2.79656331.chunk.js": "/Templewebsite/static/js/2.79656331.chunk.js",
-    "static/js/2.79656331.chunk.js.map": "/Templewebsite/static/js/2.79656331.chunk.js.map",
+    "static/js/2.d9786bbe.chunk.js": "/Templewebsite/static/js/2.d9786bbe.chunk.js",
+    "static/js/2.d9786bbe.chunk.js.map": "/Templewebsite/static/js/2.d9786bbe.chunk.js.map",
     "static/js/3.07ac1c00.chunk.js": "/Templewebsite/static/js/3.07ac1c00.chunk.js",
     "static/js/3.07ac1c00.chunk.js.map": "/Templewebsite/static/js/3.07ac1c00.chunk.js.map",
     "static/js/4.51ba883d.chunk.js": "/Templewebsite/static/js/4.51ba883d.chunk.js",
@@ -19,7 +19,7 @@
     "index.html": "/Templewebsite/index.html",
     "static/css/2.e1d94269.chunk.css.map": "/Templewebsite/static/css/2.e1d94269.chunk.css.map",
     "static/css/main.02d59d11.chunk.css.map": "/Templewebsite/static/css/main.02d59d11.chunk.css.map",
-    "static/js/2.79656331.chunk.js.LICENSE.txt": "/Templewebsite/static/js/2.79656331.chunk.js.LICENSE.txt",
+    "static/js/2.d9786bbe.chunk.js.LICENSE.txt": "/Templewebsite/static/js/2.d9786bbe.chunk.js.LICENSE.txt",
     "static/js/3.07ac1c00.chunk.js.LICENSE.txt": "/Templewebsite/static/js/3.07ac1c00.chunk.js.LICENSE.txt",
     "static/js/4.51ba883d.chunk.js.LICENSE.txt": "/Templewebsite/static/js/4.51ba883d.chunk.js.LICENSE.txt",
     "static/js/5.f2ddde13.chunk.js.LICENSE.txt": "/Templewebsite/static/js/5.f2ddde13.chunk.js.LICENSE.txt",
@@ -51,8 +51,8 @@
   "entrypoints": [
     "static/js/runtime-main.ae169c4d.js",
     "static/css/2.e1d94269.chunk.css",
-    "static/js/2.79656331.chunk.js",
+    "static/js/2.d9786bbe.chunk.js",
     "static/css/main.02d59d11.chunk.css",
-    "static/js/main.825c37f6.chunk.js"
+    "static/js/main.304eeb74.chunk.js"
   ]
 }
